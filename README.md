@@ -6,4 +6,4 @@
 
 ## Ссылки
 
-- [Публичная страница на GitHub Pages](https://selimov01.github.io/web/)
+- [Публичная страница на GitHub Pages](https://selimov01.github.io/WebApplication/)
