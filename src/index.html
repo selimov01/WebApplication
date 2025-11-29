@@ -1,53 +1,178 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Мой сайт</title>
+		<link rel="stylesheet" href="main.css" />
 		<link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+		<title>Кофе сайт</title>
 	</head>
 	<body>
-		<header>
-			<div>
-				<h1>Веб приложение</h1>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="#home">Главная</a></li>
-					<li><a href="#about">Обо мне</a></li>
-					<li><a href="#services">Услуги</a></li>
-					<li><a href="#contact">Контакты</a></li>
-				</ul>
-			</nav>
-		</header>
 		<main>
-			<section id="home">
-				<h2>Добро пожаловать!</h2>
-				<p>Главная страница веб-сайта</p>
+			<header>
+				<img id="LOGO" src="../assets/img/LOGO.png" alt="Logo" />
+				<section id="maintext">
+					<h1 class="MainText">Слово слогана 1</h1>
+					<h1 class="MainText" id="ColorMainText">Слово слогана 2</h1>
+					<h1 class="MainText">Слово слогана 3</h1>
+				</section>
+
+				<section id="navigation">
+					<img id="Main" src="../assets/img/Баннер.png" alt="Main photo" />
+					<nav>
+						<img
+							id="ShopIco"
+							src="../assets/icons/shopping-cart-3.png"
+							alt="Корзина"
+						/>
+						<ul>
+							<li><a href="#">...</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">...</a></li>
+						</ul>
+					</nav>
+				</section>
+			</header>
+
+			<section id="Coffee">
+				<h6 class="TextLogo">Слоган</h6>
+				<h3 class="TextSect">Слоган побольше</h3>
+
+				<article class="CoffeeCard">
+					<img
+						class="Card"
+						src="../assets/icons/IC (1).png"
+						alt="Карточка кофе"
+					/>
+					<h5 class="NameArt">Название</h5>
+					<p class="DescriptionArt">Описание</p>
+				</article>
+
+				<article class="CoffeeCard">
+					<img
+						class="Card"
+						src="../assets/icons/IC (3).png"
+						alt="Карточка кофе"
+					/>
+					<h5 class="NameArt">Название</h5>
+					<p class="DescriptionArt">Описание</p>
+				</article>
+
+				<article class="CoffeeCard">
+					<img
+						class="Card"
+						src="../assets/icons/IC (2).png"
+						alt="Карточка кофе"
+					/>
+					<h5 class="NameArt">Название</h5>
+					<p class="DescriptionArt">Описание</p>
+				</article>
+
+				<article class="CoffeeCard">
+					<img class="Card" src="../assets/icons/ic.png" alt="Карточка кофе" />
+					<h5 class="NameArt">Название</h5>
+					<p class="DescriptionArt">Описание</p>
+				</article>
 			</section>
-			<section id="about">
-				<h2>Обо мне</h2>
-				<p>
-					Я - backend-разработчик и Data Scientist. Предоставляю услуги
-					разработки, дизайна и консультации по архитектуре проекта.
-				</p>
+
+			<section id="MainShop">
+				<h6 class="TextLogo">Слоган</h6>
+				<h3 class="TextSect">Слоган побольше</h3>
+				<button class="toleft">скролл влево</button>
+
+				<section id="Shop">
+					<article class="CoffeeShopCard">
+						<img
+							class="ShopCard"
+							src="../assets/img/IMAGE (3).png"
+							alt="Карточка кофе"
+						/>
+						<h6 class="NameCard">Название</h6>
+						<p class="DescriptionCard">Описание</p>
+						<button class="buy">Купить</button>
+						<button class="fav">Добавить в избранные</button>
+					</article>
+
+					<article class="CoffeeShopCard">
+						<img
+							class="ShopCard"
+							src="../assets/img/IMAGE (2).png"
+							alt="Карточка кофе"
+						/>
+						<h6 class="NameCard">Название</h6>
+						<p class="DescriptionCard">Описание</p>
+						<button class="buy">Купить</button>
+						<button class="fav">Добавить в избранные</button>
+					</article>
+
+					<article class="CoffeeShopCard">
+						<img
+							class="ShopCard"
+							src="../assets/img/image (1).png"
+							alt="Карточка кофе"
+						/>
+						<h6 class="NameCard">Название</h6>
+						<p class="DescriptionCard">Описание</p>
+						<button class="buy">Купить</button>
+						<button class="fav">Добавить в избранные</button>
+					</article>
+
+					<article class="CoffeeShopCard">
+						<img
+							class="ShopCard"
+							src="../assets/img/IMAGE.png"
+							alt="Карточка кофе"
+						/>
+						<h6 class="NameCard">Название</h6>
+						<p class="DescriptionCard">Описание</p>
+						<button class="buy">Купить</button>
+						<button class="fav">Добавить в избранные</button>
+					</article>
+				</section>
 			</section>
-			<section id="services">
-				<h2>Услуги</h2>
-				<ul>
-					<li>Разработка</li>
-					<li>Дизайн</li>
-					<li>Консультации</li>
-				</ul>
+
+			<section id="GiftShop">
+				<section id="Gifts">
+					<aside id="GiftList">
+						<h2 class="NumGift">1</h2>
+						<h2 class="NumGift">2</h2>
+						<h2 class="NumGift">3</h2>
+					</aside>
+
+					<article class="GiftCard">
+						<img
+							class="Gift"
+							src="../assets/img/pr-0018-r.png"
+							alt="Подарочный набор"
+						/>
+						<p class="price">Цена</p>
+						<h5 class="NameGift">Название набора</h5>
+						<p class="DescriptonGift">Описание подарочного набора</p>
+
+						<img
+							class="GiftFeatures"
+							src="../assets/icons/IC_coffee.png"
+							alt="Особенности"
+						/>
+						<h6 class="GiftFeature">Особенность 1</h6>
+						<p class="FeatureGift">Описание особенности 1</p>
+
+						<img
+							class="GiftFeatures"
+							src="../assets/icons/IC_Mountain.png"
+							alt="Особенности"
+						/>
+						<h6 class="GiftFeature">Особенность 2</h6>
+						<p class="FeatureGift">Описание особенности 2</p>
+
+						<button class="buy">Купить</button>
+						<button class="fav">Добавить в избранные</button>
+					</article>
+				</section>
 			</section>
-			<section id="contact">
-				<h2>Контакты</h2>
-				<p>Email: не получите</p>
-				<p>Телефон: размечтались</p>
-			</section>
+
+			<footer><p>&copy; 2025 сайт. Все права защищены.</p></footer>
 		</main>
-		<footer>
-			<p>&copy; 2025 сайт. Все права защищены.</p>
-		</footer>
 	</body>
 </html>
