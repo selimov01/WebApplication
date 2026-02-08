@@ -11,7 +11,7 @@ function toggleMenu() {
 
 	menuToggle.classList.toggle('active')
 	mainNav.classList.toggle('active')
-	navOverlay.classList.toggle('active')
+	navOverlay.classList.toggle('nav-overlay--active')
 
 	menuToggle.setAttribute('aria-expanded', !isExpanded)
 
