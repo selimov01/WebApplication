@@ -8,84 +8,99 @@
 		<title>REVO</title>
 	</head>
 	<body>
+		<header class="header">
+			<a href="/" class="logo">
+				<img class="logo__img" src="assets/img/LOGO.png" alt="REVO Logo" />
+			</a>
+
+			<h1 class="page-title">YOUR PERSONALIZED COFFEE</h1>
+			<button
+				class="menu-toggle"
+				id="menuToggle"
+				aria-label="Open Menu"
+				aria-expanded="false"
+			>
+				<span class="menu-toggle__bar"></span>
+				<span class="menu-toggle__bar"></span>
+				<span class="menu-toggle__bar"></span>
+			</button>
+
+			<nav class="main-nav" id="mainNav">
+				<ul class="main-nav__items main-nav__list">
+					<li class="main-nav__item">
+						<a href="#home" class="main-nav__link">Home</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#coffee" class="main-nav__link">Coffee</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#giftset" class="main-nav__link">GiftSet</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#combo" class="main-nav__link">Combo</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#contact" class="main-nav__link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 		<main>
-			<header class="header">
-				<a href="/" class="logo">
-					<img class="logo__img" src="assets/img/LOGO.png" alt="REVO Logo" />
-				</a>
-
-				<h1 class="page-title">YOUR PERSONALIZED COFFEE</h1>
-				<button
-					class="menu-toggle"
-					id="menuToggle"
-					aria-label="Open Menu"
-					aria-expanded="false"
-				>
-					<span class="menu-toggle__bar"></span>
-					<span class="menu-toggle__bar"></span>
-					<span class="menu-toggle__bar"></span>
-				</button>
-
-				<nav class="main-nav" id="mainNav">
-					<ul class="main-nav__items main-nav__list">
-						<li class="main-nav__item">
-							<a href="#home" class="main-nav__link">Home</a>
-						</li>
-						<li class="main-nav__item">
-							<a href="#coffee" class="main-nav__link">Coffee</a>
-						</li>
-						<li class="main-nav__item">
-							<a href="#giftset" class="main-nav__link">GiftSet</a>
-						</li>
-						<li class="main-nav__item">
-							<a href="#combo" class="main-nav__link">Combo</a>
-						</li>
-						<li class="main-nav__item">
-							<a href="#contact" class="main-nav__link">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</header>
-
-			<section id="Coffee">
-				<h6 class="TextLogo">Слоган</h6>
-				<h3 class="TextSect">Слоган побольше</h3>
-
-				<article class="CoffeeCard">
-					<img
-						class="Card"
-						src="../assets/icons/IC (1).png"
-						alt="Карточка кофе"
-					/>
-					<h5 class="NameArt">Название</h5>
-					<p class="DescriptionArt">Описание</p>
-				</article>
-
-				<article class="CoffeeCard">
-					<img
-						class="Card"
-						src="../assets/icons/IC (3).png"
-						alt="Карточка кофе"
-					/>
-					<h5 class="NameArt">Название</h5>
-					<p class="DescriptionArt">Описание</p>
-				</article>
-
-				<article class="CoffeeCard">
-					<img
-						class="Card"
-						src="../assets/icons/IC (2).png"
-						alt="Карточка кофе"
-					/>
-					<h5 class="NameArt">Название</h5>
-					<p class="DescriptionArt">Описание</p>
-				</article>
-
-				<article class="CoffeeCard">
-					<img class="Card" src="../assets/icons/ic.png" alt="Карточка кофе" />
-					<h5 class="NameArt">Название</h5>
-					<p class="DescriptionArt">Описание</p>
-				</article>
+			<section id="home" class="section section--features">
+				<hgroup class="section__header">
+					<p class="section__subtitle">Your Personalized Coffee</p>
+					<h2 class="section__title">Coffee build your base</h2>
+				</hgroup>
+				<div class="feature-list">
+					<article class="feature-item">
+						<img
+							class="feature-item__img"
+							src="assets/icons/ic.png"
+							alt="ic icon"
+						/>
+						<h3 class="feature-item__title">Source</h3>
+						<p class="feature-item__description">
+							Arabica and Robusta coffee beans meet international quality
+							standards.
+						</p>
+					</article>
+					<article class="feature-item">
+						<img
+							class="feature-item__img"
+							src="assets/icons/IC (1).png"
+							alt="IC (1) icon"
+						/>
+						<h3 class="feature-item__title">Quality</h3>
+						<p class="feature-item__description">
+							Each coffee bean is a process of high concentration of coffee
+							artisans.
+						</p>
+					</article>
+					<article class="feature-item">
+						<img
+							class="feature-item__img"
+							src="assets/icons/IC (2).png"
+							alt="IC (2) icon "
+						/>
+						<h3 class="feature-item__title">Beans</h3>
+						<p class="feature-item__description">
+							70% of the quality of a cup of coffee comes from the origin and
+							quality of the green bean.
+						</p>
+					</article>
+					<article class="feature-item">
+						<img
+							class="feature-item__img"
+							src="assets/icons/IC (3).png"
+							alt="IC (3) icon "
+						/>
+						<h3 class="feature-item__title">Bartending</h3>
+						<p class="feature-item__description">
+							Coffee beans are transformed through a careful and rigorous
+							roasting process.
+						</p>
+					</article>
+				</div>
 			</section>
 
 			<section id="MainShop">
