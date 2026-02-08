@@ -335,3 +335,14 @@ a {
 	font-size: 14px;
 	box-sizing: border-box;
 }
+
+@keyframes fadeInSlideUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
