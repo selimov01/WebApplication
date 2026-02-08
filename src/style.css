@@ -132,6 +132,33 @@ a {
 	font-size: 16px;
 }
 
+.section {
+	padding: 80px;
+	max-width: 1400px;
+	margin: auto;
+	text-align: center;
+}
+
+.section__header {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+.section__subtitle {
+	color: #b0886f;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.section__title {
+	font-size: 36px;
+}
+
+.section--combo,
+.section--giftset {
+	background-color: #f8f4f0;
+}
+
 .product-card {
 	background-color: #ffffff;
 	padding: 20px;
