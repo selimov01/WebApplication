@@ -1,38 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="main.css" />
 		<link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
-		<title>Кофе сайт</title>
+		<title>REVO</title>
 	</head>
 	<body>
 		<main>
-			<header>
-				<img id="LOGO" src="../assets/img/LOGO.png" alt="Logo" />
-				<section id="maintext">
-					<h1 class="MainText">Слово слогана 1</h1>
-					<h1 class="MainText" id="ColorMainText">Слово слогана 2</h1>
-					<h1 class="MainText">Слово слогана 3</h1>
-				</section>
+			<header class="header">
+				<a href="/" class="logo">
+					<img class="logo__img" src="assets/img/LOGO.png" alt="REVO Logo" />
+				</a>
 
-				<section id="navigation">
-					<img id="Main" src="../assets/img/Баннер.png" alt="Main photo" />
-					<nav>
-						<img
-							id="ShopIco"
-							src="../assets/icons/shopping-cart-3.png"
-							alt="Корзина"
-						/>
-						<ul>
-							<li><a href="#">...</a></li>
-							<li><a href="#">...</a></li>
-							<li><a href="#">...</a></li>
-							<li><a href="#">...</a></li>
-						</ul>
-					</nav>
-				</section>
+				<h1 class="page-title">YOUR PERSONALIZED COFFEE</h1>
+				<button
+					class="menu-toggle"
+					id="menuToggle"
+					aria-label="Open Menu"
+					aria-expanded="false"
+				>
+					<span class="menu-toggle__bar"></span>
+					<span class="menu-toggle__bar"></span>
+					<span class="menu-toggle__bar"></span>
+				</button>
+
+				<nav class="main-nav" id="mainNav">
+					<ul class="main-nav__items main-nav__list">
+						<li class="main-nav__item">
+							<a href="#home" class="main-nav__link">Home</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#coffee" class="main-nav__link">Coffee</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#giftset" class="main-nav__link">GiftSet</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#combo" class="main-nav__link">Combo</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#contact" class="main-nav__link">Contact</a>
+						</li>
+					</ul>
+				</nav>
 			</header>
 
 			<section id="Coffee">
