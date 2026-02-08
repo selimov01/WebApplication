@@ -364,3 +364,143 @@ a {
 		gap: 20px;
 	}
 }
+
+@media (max-width: 767px) {
+	.section {
+		padding: 40px 15px;
+	}
+	.section__title {
+		font-size: 28px;
+	}
+
+	.feature-item {
+		flex-basis: 100%;
+	}
+
+	.product-choice,
+	.combo-choice {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+	}
+
+	.button {
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+	.product-card__actions {
+		flex-direction: column;
+		gap: 5px;
+	}
+}
+
+@media (max-width: 575px) {
+	.section {
+		padding: 40px 15px;
+	}
+	.product-choice,
+	.combo-choice {
+		grid-template-columns: 1fr;
+	}
+
+	.feature-list {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.feature-item {
+		width: 100%;
+		max-width: 400px;
+		margin: 0 auto 20px;
+	}
+
+	.product-card {
+		text-align: center;
+	}
+
+	.giftset-card__img {
+		width: 50%;
+	}
+	.giftset-card__info-list {
+		flex-direction: column;
+		gap: 15px;
+	}
+	.footer {
+		text-align: center;
+		padding: 30px;
+	}
+}
+
+@media (max-width: 440px) {
+	.section {
+		padding: 40px 10px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.page-title {
+		text-align: center;
+		font-size: 24px;
+		flex-direction: column;
+		align-items: center;
+		padding: 15px;
+	}
+
+	.giftset-card {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		width: 100%;
+		max-width: 320px;
+		margin: 0 auto;
+		padding: 20px 10px;
+	}
+
+	.giftset-card__img {
+		width: 80%;
+		margin: 0 auto 20px auto;
+	}
+
+	.giftset-card__info-list {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		border-bottom: none;
+	}
+
+	.giftset-card__actions {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.product-choice,
+	.combo-choice {
+		grid-template-columns: 1fr;
+		justify-items: center;
+		width: 100%;
+	}
+
+	.product-card {
+		width: 100%;
+		max-width: 290px;
+		margin: 0 auto;
+	}
+
+	.feature-list {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.feature-item {
+		text-align: center;
+		max-width: 280px;
+		margin-bottom: 30px;
+	}
+
+	.footer {
+		width: 100%;
+		text-align: center;
+		box-sizing: border-box;
+	}
+}
