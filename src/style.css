@@ -105,6 +105,33 @@ a {
 	transition: width 0.3s ease-in-out;
 }
 
+.feature-list {
+	display: flex;
+	gap: 30px;
+}
+
+.feature-item {
+	flex-basis: 25%;
+	padding: 20px;
+	animation: fadeInSlideUp 0.8s forwards;
+}
+
+.feature-item__img {
+	width: 60px;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.feature-item__title {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #b0886f;
+}
+
+.feature-item__description {
+	font-size: 16px;
+}
+
 .product-card {
 	background-color: #ffffff;
 	padding: 20px;
