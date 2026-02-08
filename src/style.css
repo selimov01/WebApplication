@@ -346,3 +346,21 @@ a {
 		transform: translateY(0);
 	}
 }
+
+@media (max-width: 1199px) {
+	.section {
+		padding: 60px 3%;
+	}
+
+	.section__title {
+		font-size: 32px;
+	}
+
+	.main-nav__list {
+		gap: 1.5rem;
+	}
+	.product-choice,
+	.combo-choice {
+		gap: 20px;
+	}
+}
