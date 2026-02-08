@@ -153,3 +153,40 @@ a {
 	gap: 10px;
 	margin-top: 20px;
 }
+
+.button {
+	padding: 12px 25px;
+	border-radius: 4px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	border: 2px solid transparent;
+	transition: all 0.3s;
+}
+
+.button--buy {
+	background-color: #b0886f;
+	color: #ffffff;
+}
+
+.button--buy:hover {
+	background-color: #9c785a;
+	transform: translateY(-4px);
+}
+
+.button--details:hover {
+	background-color: #9c785a;
+	transform: translateY(-4px);
+}
+
+.button--details {
+	background-color: transparent;
+	border-color: #b0886f;
+	color: #b0886f;
+}
+
+.button--details:hover {
+	background-color: #b0886f;
+	color: #ffffff;
+}
