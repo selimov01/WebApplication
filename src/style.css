@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@font-face {
+	font-family: 'CustomFont';
+	src: url('../assets/fonts/custom-font.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+}
+:root {
+	--primary-color: #b0886f;
+	--text-color: #5a5858;
+	--bg-color: #ffffff;
+	--transition: all 0.3s ease;
+}
+
+html,
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', system-ui, sans-serif;
+	color: #5a5858;
+	line-height: 1.6;
+	font-size: 16px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	color: #5a5858;
+	transition: color 0.3s;
+}
