@@ -250,3 +250,79 @@ a {
 .section--giftset {
 	background-color: #f8f4f0;
 }
+
+.giftset-card {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	max-width: 1000px;
+	margin: auto;
+	padding: 30px;
+	border: 1px solid #b0886f;
+	border-radius: 8px;
+	transition:
+		transform 0.4s,
+		box-shadow 0.4s;
+	background-color: #ffffff;
+	border-radius: 8px;
+	animation: fadeInSlideUp 0.8s forwards;
+}
+
+.giftset-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+}
+
+.giftset-card__img {
+	width: 40%;
+}
+
+.giftset-card__price {
+	font-size: 32px;
+	font-weight: bold;
+	color: #c0863b;
+	margin-bottom: 5px;
+}
+
+.giftset-card__title {
+	font-size: 28px;
+	font-weight: 700;
+	color: #5a5858;
+	margin-bottom: 20px;
+}
+
+.giftset-card__description {
+	display: block;
+	gap: 50px;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	color: #0d0d0d;
+}
+
+.giftset-card__info-list {
+	display: flex;
+	gap: 50px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+.giftset-card__info-item {
+	display: flex;
+	gap: 10px;
+	font-size: 16px;
+	color: #0d0d0d;
+}
+
+.giftset-card__actions {
+	display: flex;
+	gap: 15px;
+	margin-top: 20px;
+}
+
+.combo-choice {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 30px;
+	transition: transform 0.3s ease;
+}
